@@ -1,0 +1,8 @@
+I used this article to put site on Github pages:
+https://www.geeksforgeeks.org/how-to-deploy-your-react-websites-on-github/
+The command "build": "react-scripts build && cp build/index.html build/404.html"
+gave me an error: cp is not a recognized command.
+Found article that said to replace "cp" with "copy". Still didn't work.
+Another article said to replace / with \\ (two to escape the first slash)
+When I ran "npm run deploy" it worked, but the website still gave the 404 error whenever I tried to refresh the page. 
+This article https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/ says to use a Hash Router instead of Browser Router (when using the React router library). I'm not using the react router library. I will try this when I install react router.
