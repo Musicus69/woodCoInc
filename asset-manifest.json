@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/woodCoInc/static/css/main.e4db9619.css",
+    "main.js": "/woodCoInc/static/js/main.c33dd168.js",
+    "static/media/cullen.jpg": "/woodCoInc/static/media/cullen.86b4374495726efc1842.jpg",
+    "static/media/woodbrokers.jpg": "/woodCoInc/static/media/woodbrokers.2123d69b8fee7ead1b20.jpg",
+    "static/media/joel.jpg": "/woodCoInc/static/media/joel.f8fb5461d211d5fbee0b.jpg",
+    "index.html": "/woodCoInc/index.html",
+    "main.e4db9619.css.map": "/woodCoInc/static/css/main.e4db9619.css.map",
+    "main.c33dd168.js.map": "/woodCoInc/static/js/main.c33dd168.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4db9619.css",
+    "static/js/main.c33dd168.js"
+  ]
+}
