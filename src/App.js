@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Sidebar from "./components/Sidebar";
+import Route from "./components/Route";
+import HomePage from "./pages/HomePage";
+import ContactUsPage from "./pages/ContactUsPage";
+import TestimonialsPage from "./pages/TestimonialsPage";
+import CullenImage from "./images/cullen.jpg";
+import JoelImage from "./images/joel.jpg";
+import WoodImage from "./images/woodbrokers.jpg";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="back textc pb-2">
+      <div className="flex justify-between mx-4 pt-4 items-center">
+        <header className="font-bold text-4xl">Wood Brokers Co. Inc.</header>
+        <Sidebar />
+      </div>
+      <Route path="/contactUs">
+        <ContactUsPage image={JoelImage} />
+      </Route>
+      <Route path="/">
+        <HomePage image={WoodImage} />
+      </Route>
+      <Route path="/testimonials">
+        <TestimonialsPage image={CullenImage} />
+      </Route>
     </div>
   );
 }
