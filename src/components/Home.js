@@ -18,14 +18,16 @@ function Home() {
         timber as well.
       </h3>
       <h3 className="font-bold text-lg">Services/Products</h3>
-      <ul className="indent-6">
+       <ul >
+     {/* <ul className="indent-6"> */}
         <li>Pine and Hardwood Harvesting</li>
         <li>Selective Cutting & Thinning</li>
         <li>Clear cutting</li>
         <li>Timber Sales & Appraisals</li>
       </ul>
       <h3 className="font-bold text-lg">Associations</h3>
-      <ul className="indent-6 mb-4">
+      <ul className="mb-4">
+      {/* <ul className="indent-6 mb-4"> */}
         <li>Virginia Forestry Association</li>
       </ul>
     </div>

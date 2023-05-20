@@ -5,7 +5,7 @@ import Body from "./Body";
 function Testimonials() {
   return (
     <div>
-      <h1 className="font-bold text-2xl mb-4">Testimonials</h1>
+      {/* <h1 className="font-bold text-2xl mb-4">Testimonials</h1> */}
       <Card>
         <Body>
           During the past few years, Wood Brokers has been performing selective

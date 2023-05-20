@@ -17,3 +17,9 @@
 .borderc {
     border-color: #B8621B;
 }
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family:serif; */
+    /* font-family:'Times New Roman', Times, serif; */
+}

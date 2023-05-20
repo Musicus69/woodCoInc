@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="back textc pb-2">
       <div className="sm:block md:flex justify-between mx-4 pt-4 items-center">
-        <header className="font-bold text-4xl">Wood Brokers Co. Inc.</header>
+        <header className="font-bold text-4xl title">Wood Brokers Co. Inc.</header>
         <Sidebar />
       </div>
       <Route path="/contactUs">
