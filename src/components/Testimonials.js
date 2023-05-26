@@ -4,7 +4,7 @@ import Body from "./Body";
 
 function Testimonials() {
   return (
-    <div>
+    <div className="grid grid-cols-2 gap-4">
       {/* <h1 className="font-bold text-2xl mb-4">Testimonials</h1> */}
       <Card>
         <Body>

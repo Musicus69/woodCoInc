@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
   return (
     <div className="back textc pb-2">
-      <div className="sm:block md:flex justify-between mx-4 pt-4 items-center">
+      <div className="sm:block md:flex justify-between mx-4 pt-4 items-center borderc border-b-2">
         <header className="font-bold text-4xl title">Wood Brokers Co. Inc.</header>
         <Sidebar />
       </div>

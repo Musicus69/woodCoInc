@@ -5,7 +5,7 @@ function TestimonialsPage({ image }) {
     <div className="m-4">
       <Testimonials />
       <div className="wrapper">
-        <img className="rounded" src={image} alt="testimonial pic" />
+        <img className="rounded mt-4" src={image} alt="testimonial pic" />
       </div>
     </div>
   );
