@@ -1,10 +1,12 @@
 function ContactUs() {
   return (
-    <div className="font-bold text-2xl">
-      {/* <h1 className="flex justify-center">Contact us</h1> */}
-      <h1 className="flex justify-left">804-520-6512</h1>
-      <h1 className="flex justify-left mb-4">(c) 804-337-6125</h1>
-      <h1 className="flex justify-left mb-4">woodbrokers@aol.com</h1>
+    <div className="font-bold text-2xl grid grid-cols-[auto_1fr] gap-2 mb-4">
+      <h1>office:</h1>
+      <h1>804-520-6512</h1>
+      <h1>mobile:</h1>
+      <h1>804-337-6125</h1>
+      <h1>email:</h1>
+      <h1>woodbrokers@aol.com</h1>
     </div>
   );
 }
